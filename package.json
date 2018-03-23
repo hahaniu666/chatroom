@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hahaniu666/chatroom#readme",
   "dependencies": {
+    "forever": "^0.15.3",
     "socket.io": "^2.0.4"
   }
 }
