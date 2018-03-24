@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <!--
+        可以在相应的页面的<head>里加上这句代码，意思是自动将http的不安全请求升级为https
+        参考：https://thehackernews.com/2015/04/disable-mixed-content-warning.html
+    -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>聊天室</title>
     <link type="text/css" rel="stylesheet" href="css/chat.css">
